@@ -222,3 +222,10 @@ variable "health_check_grace_period_seconds" {
   default     = null
   type        = number
 }
+
+
+variable "deployment_controller" {
+  description = "Type of deployment controller. Valid values: CODE_DEPLOY, ECS, EXTERNAL"
+  default     = "ECS"
+  type        = string
+}

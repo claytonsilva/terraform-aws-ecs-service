@@ -183,6 +183,7 @@ No modules.
 | <a name="input_tasks_desired_count"></a> [tasks\_desired\_count](#input\_tasks\_desired\_count) | The number of instances of a task definition. | `number` | `1` | no |
 | <a name="input_tasks_maximum_percent"></a> [tasks\_maximum\_percent](#input\_tasks\_maximum\_percent) | Upper limit on the number of running tasks. | `number` | `200` | no |
 | <a name="input_tasks_minimum_healthy_percent"></a> [tasks\_minimum\_healthy\_percent](#input\_tasks\_minimum\_healthy\_percent) | Lower limit on the number of running tasks. | `number` | `100` | no |
+| <a name="deployment_controller"></a> [deployment\_controller](#input\_deployment\_controller) | Type of deployment controller. Valid values: CODE_DEPLOY, ECS, EXTERNAL | `string` | `ECS` | no |
 
 ## Outputs
 
